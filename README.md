@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-space-responsive
+$ npm install sircus-tools-space-responsive && npm install sircus-global-proprety
 ```
 
 ## Usage
@@ -23,12 +23,14 @@ $ npm install sircus-tools-space-responsive
 input.css
 ```css
 @import "sircus-tools-space-responsive";
+@import "sircus-global-property";
 ```
 
 > use sass:
 
 input.scss
 ```css
+@import "node_modules/sircus-global-property/converted";
 @import "node_modules/sircus-tools-space-responsive/converted";
 ```
 
