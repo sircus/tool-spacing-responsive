@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-space-responsive && npm install sircus-global-proprety
+$ npm install sircus-tools-space-responsive sircus-global-proprety
 ```
 
 ## Usage
