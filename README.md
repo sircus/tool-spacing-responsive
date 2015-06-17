@@ -5,33 +5,41 @@
 > A responsive space tools Module of Sircus.
 
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-tools-space-responsive sircus-global-proprety
+$ npm install sircus-tools-space-responsive sircus-global-property
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-tools-space-responsive";
+/*
+@import "sircus-tools-space-responsive/lib/sm";
+@import "sircus-tools-space-responsive/lib/md";
+@import "sircus-tools-space-responsive/lib/lg";
+*/
 @import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-property/converted";
-@import "node_modules/sircus-tools-space-responsive/converted";
+```scss
+@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-tools-space-responsive/converted";
+// @import "./node_modules/sircus-tools-space-responsive/scss/sm";
+// @import "./node_modules/sircus-tools-space-responsive/scss/md";
+// @import "./node_modules/sircus-tools-space-responsive/scss/lg";
 ```
 
 
