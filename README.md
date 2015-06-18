@@ -2,8 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-space-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-space-responsive)
 
-> A responsive space tools Module of Sircus.
-
 ## Dependencies
 - [sircus-global-property](https://github.com/sircus/global-property)
 
