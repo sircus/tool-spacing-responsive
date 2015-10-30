@@ -1,17 +1,17 @@
 {
   "name": "sircus-tools-space-responsive",
-  "description": "Responsive css space tools Module for Sircus.",
+  "description": "Tools Module For Responsive CSS Vertical Space.",
   "version": "0.0.3",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",

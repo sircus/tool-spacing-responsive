@@ -2,16 +2,12 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-space-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-space-responsive)
 
-## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
-
-
-## Installation
+## Install
 
 > npm:
 
 ```bash
-$ npm install sircus-tools-space-responsive sircus-global-property
+$ npm install sircus-tools-space-responsive sircus-variables
 ```
 
 ## Usage
@@ -21,23 +17,15 @@ $ npm install sircus-tools-space-responsive sircus-global-property
 input.css
 ```css
 @import "sircus-tools-space-responsive";
-/*
-@import "sircus-tools-space-responsive/lib/sm-space.css";
-@import "sircus-tools-space-responsive/lib/md-space.css";
-@import "sircus-tools-space-responsive/lib/lg-space.css";
-*/
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
-@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-variables/converted";
 @import "./node_modules/sircus-tools-space-responsive/converted";
-// @import "./node_modules/sircus-tools-space-responsive/scss/sm-space";
-// @import "./node_modules/sircus-tools-space-responsive/scss/md-space";
-// @import "./node_modules/sircus-tools-space-responsive/scss/lg-space";
 ```
 
 
